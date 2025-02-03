@@ -1,0 +1,81 @@
+.container {
+  max-width: 400px;
+  background-color: #e9ecef;
+  border: 1px solid #dee2e6;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  padding: 20px;
+  border: none;
+}
+
+.btn {
+  font-size: 1.5rem;
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-light {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.btn-light:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  background-color: transparent; /* Removed primary color background */
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: transparent; /* Ensure hover also has no background */
+  transform: scale(1.05);
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 15px;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+#result {
+  font-size: 32px;
+  text-align: right;
+}
+
+.form-control {
+  font-size: 2rem;
+  text-align: right;
+  background-color: #e9ecef;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+button{
+  width:60px;
+  height: 60px;
+  border-top-left-radius: 90%;
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 90%;
+  
+}
+button:hover
+{
+  background-color:yellow;
+}
+input[type=text]
+{
+  height: 50px;
+}
